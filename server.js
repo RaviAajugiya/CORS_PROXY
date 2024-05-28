@@ -11,6 +11,7 @@ var port = process.env.PORT || 8080;
 var originWhitelist = [
   "https://dot.innovatrics.com/identity/api/v1/info",
   "http://localhost",
+  "https://cors-proxy-w9ep.onrender.com",
 ];
 function parseEnvList(env) {
   if (!env) {
