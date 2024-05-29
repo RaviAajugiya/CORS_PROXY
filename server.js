@@ -12,6 +12,7 @@ var originWhitelist = [
   "https://dot.innovatrics.com/identity/api/v1/info",
   "http://localhost",
   "https://cors-proxy-w9ep.onrender.com",
+  "https://bdb50066430b85d5116bdadba85401d3.loophole.site"
 ];
 function parseEnvList(env) {
   if (!env) {
